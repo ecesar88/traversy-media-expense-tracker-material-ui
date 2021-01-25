@@ -1,22 +1,19 @@
 import React from "react";
-import { Container, Grid, Button, Card, Paper } from "@material-ui/core";
+import { Container, Grid, Divider } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import Header from "./Components/Header";
+import Balance from "./Components/Balance";
+import History from "./Components/History";
+import "./App.css";
+import IncomeExpense from "./Components/IncomeExpense";
+import AddNewTransaction from "./Components/AddNewTransaction";
 
 const useStyles = makeStyles({
   gridContainer: {
     padding: "2rem",
-    width: "100%",
-    height: "100%",
-    backgroundColor: '#d3d3d3'
   },
-  paper: {
-    width: "100%",
-    height: "500px",
-  },
-  card: {
-    width: "150px",
-    height: "250px",
+  container: {
+    height: "calc(100% - 15px)",
   },
 });
 
@@ -33,14 +30,20 @@ const App: React.FC = () => {
         justify="center"
         className={classes.gridContainer}
       >
-        <Paper className={classes.paper}>
-          <Container>
-            <Header text="teste" />
-          </Container>
-          <Card variant="outlined" className={classes.card}>
-            <div style={{ height: "300px" }}></div>
-          </Card>
-        </Paper>
+        <Container className={classes.container}>
+          <Header text="Expense Tracker" />
+          <Divider />
+          <Balance amount={300} />
+          <IncomeExpense income={200} expense={500} />
+          <History
+            items={[
+              { name: "Pagamento Netflix", amount: 40 },
+              { name: "Conta cartão de cŕedito", amount: 650 },
+              { name: "Parcela do carro", amount: 900 },
+            ]}
+          />
+          <AddNewTransaction />
+        </Container>
       </Grid>
     </Container>
   );
