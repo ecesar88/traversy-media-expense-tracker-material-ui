@@ -1,5 +1,6 @@
 import { Card, Divider, makeStyles } from "@material-ui/core";
-import React from "react";
+import React, { useContext } from "react";
+import { GlobalContext } from "./Context/GlobalContext";
 
 type IncomeExpenseProps = {
   income: number;
@@ -25,8 +26,19 @@ const useStyles = makeStyles({
   },
 });
 
-const IncomeExpense: React.FC<IncomeExpenseProps> = ({ income, expense }) => {
+const IncomeExpense: React.FC<IncomeExpenseProps> = () => {
   const classes = useStyles();
+  const { transactions } = useContext(GlobalContext);
+
+  const amounts = transactions.map((transaction: any) => transaction.amount);
+
+  const income = amounts
+    .filter((item: any) => item > 0)
+    .reduce((acc: any, item: any) => (acc += item), 0)
+
+  const expense = amounts
+    .filter((item: any) => item < 0)
+    .reduce((acc: any, item: any) => (acc += item), 0 * -1)
 
   return (
     <Card variant="elevation">

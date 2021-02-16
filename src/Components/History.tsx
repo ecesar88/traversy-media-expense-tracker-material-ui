@@ -1,14 +1,12 @@
 import { Divider, makeStyles, Typography } from "@material-ui/core";
-import React from "react";
+import React, { useContext } from "react";
 import HistoryItem from "./HistoryItem";
-
-type HistoryProps = {
-  items: any[];
-};
+import { GlobalContext } from './Context/GlobalContext'
 
 type Item = {
-  name: string;
-  amount: number;
+  id: number,
+  text: string,
+  amount: number
 };
 
 const useStyles = makeStyles({
@@ -17,8 +15,9 @@ const useStyles = makeStyles({
   },
 });
 
-const History: React.FC<HistoryProps> = ({ items }) => {
+const History: React.FC = () => {
   const classes = useStyles();
+  const { transactions } = useContext(GlobalContext)
 
   return (
     <div className={classes.container}>
@@ -27,11 +26,12 @@ const History: React.FC<HistoryProps> = ({ items }) => {
       </Typography>
       <Divider />
 
-      {items.map((item: Item) => {
+      {transactions.map((item: Item) => {
         return (
           <HistoryItem
-            key={`${item.name}-${String(item.amount)}`}
-            name={item.name}
+            key={`${item.id}`}
+            id={item.id}
+            text={item.text}
             amount={item.amount}
           />
         );

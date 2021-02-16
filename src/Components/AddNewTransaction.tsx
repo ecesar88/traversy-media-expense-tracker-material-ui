@@ -8,10 +8,13 @@ import {
 import React from "react";
 
 const useStyles = makeStyles({
-  root: {},
+  root: {
+    width: '100%'
+  },
   input: {
     backgroundColor: "#ffffff",
     margin: "5px 0px",
+    width: '100%'
   },
   button: {
     display: "flex",
@@ -49,7 +52,7 @@ const AddNewTransaction: React.FC = () => {
           placeholder="Enter Amount"
           fullWidth
         />
-        <small>(Negative = expense; Positive = income)</small>
+        <small>(Positive = income; Negative = expense)</small>
       </form>
 
       <div className={classes.button}>

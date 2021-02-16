@@ -1,0 +1,282 @@
+Info 0    [09:29:30.127] Starting TS Server
+Info 1    [09:29:30.128] Version: 4.1.3
+Info 2    [09:29:30.128] Arguments: /home/zsucrilhos/.nvm/versions/node/v12.6.0/bin/node /home/zsucrilhos/.nvm/versions/node/v12.6.0/bin/tsserver --logFile /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/8a18a45f5c9cc8521f2e417d08cfb487/tscancellation*
+Info 3    [09:29:30.128] Platform: linux NodeVersion: 12 CaseSensitive: true
+Info 4    [09:29:30.128] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [09:29:30.159] Search path: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src/Components
+Info 6    [09:29:30.160] For info: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src/Components/Balance.tsx :: Config file name: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json
+Info 7    [09:29:30.160] Opened configuration file /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json
+Info 8    [09:29:30.180] Config: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json : {
+ "rootNames": [
+  "/home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src/App.tsx",
+  "/home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src/index.tsx",
+  "/home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src/react-app-env.d.ts",
+  "/home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src/setupTests.ts",
+  "/home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src/Components/AddNewTransaction.tsx",
+  "/home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src/Components/Balance.tsx",
+  "/home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src/Components/Header.tsx",
+  "/home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src/Components/History.tsx",
+  "/home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src/Components/HistoryItem.tsx",
+  "/home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src/Components/IncomeExpense.tsx"
+ ],
+ "options": {
+  "target": 1,
+  "lib": [
+   "lib.dom.d.ts",
+   "lib.dom.iterable.d.ts",
+   "lib.esnext.d.ts"
+  ],
+  "allowJs": true,
+  "skipLibCheck": true,
+  "esModuleInterop": true,
+  "allowSyntheticDefaultImports": true,
+  "strict": true,
+  "forceConsistentCasingInFileNames": true,
+  "noFallthroughCasesInSwitch": true,
+  "module": 99,
+  "moduleResolution": 2,
+  "resolveJsonModule": true,
+  "isolatedModules": true,
+  "noEmit": true,
+  "jsx": 4,
+  "configFilePath": "/home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json"
+ }
+}
+Info 9    [09:29:30.263] Starting updateGraphWorker: Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json
+Info 10   [09:29:55.404] Finishing updateGraphWorker: Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json Version: 1 structureChanged: true Elapsed: 25140.27672199998ms
+Info 11   [09:29:55.404] Project '/home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json' (Configured)
+Info 12   [09:29:55.404] 	Files (522)
+
+Info 13   [09:29:55.404] -----------------------------------------------
+Info 14   [09:29:55.472] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 15   [09:29:56.343] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true Elapsed: 870.2040510000661ms
+Info 16   [09:29:56.343] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 17   [09:29:56.343] 	Files (35)
+
+Info 18   [09:29:56.343] -----------------------------------------------
+Info 19   [09:29:56.421] Before ensureProjectForOpenFiles:
+Info 20   [09:29:56.421] After ensureProjectForOpenFiles:
+Info 21   [09:29:56.421] got projects updated in background, updating diagnostics for /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src/Components/Balance.tsx
+Info 22   [09:30:01.118] Starting updateGraphWorker: Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json
+Info 23   [09:30:01.218] Finishing updateGraphWorker: Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json Version: 2 structureChanged: false Elapsed: 100.02232600003481ms
+Info 24   [09:30:01.218] Different program with same set of files:: structureIsReused:: 2
+Info 25   [09:30:03.288] Starting updateGraphWorker: Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json
+Info 26   [09:30:03.321] Finishing updateGraphWorker: Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json Version: 3 structureChanged: false Elapsed: 32.90435799956322ms
+Info 27   [09:30:03.321] Different program with same set of files:: structureIsReused:: 2
+Info 28   [09:30:03.323] getCompletionData: Get current token: 0.027057000435888767
+Info 29   [09:30:03.323] getCompletionData: Is inside comment: 0.05905199982225895
+Info 30   [09:30:03.323] getCompletionData: Get previous token 1: 0.03235900029540062
+Info 31   [09:30:03.324] getCompletionData: Get previous token 2: 0.1050980007275939
+Info 32   [09:30:03.324] getCompletionsAtPosition: isCompletionListBlocker: 0.40034899953752756
+Info 33   [09:30:03.332] getSymbolsFromOtherSourceFileExports: Recomputing list
+Info 34   [09:30:03.430] forEachExternalModuleToImportFrom: filtered out 95 modules by package.json contents
+Info 35   [09:30:03.450] forEachExternalModuleToImportFrom: filtered out 22 modules by package.json contents
+Info 36   [09:30:03.450] forEachExternalModuleToImportFrom autoImportProvider: 19.590916000306606
+Info 37   [09:30:03.486] getSymbolsFromOtherSourceFileExports: 153.36139899957925
+Info 38   [09:30:03.508] getCompletionData: Semantic work: 183.9828209998086
+Info 39   [09:30:03.587] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 77.74769099988043
+Info 40   [09:30:03.606] getCompletionData: Get current token: 0.015331999398767948
+Info 41   [09:30:03.606] getCompletionData: Is inside comment: 0.02967999968677759
+Info 42   [09:30:03.606] getCompletionData: Get previous token 1: 0.02348600048571825
+Info 43   [09:30:03.606] getCompletionData: Get previous token 2: 0.043819000013172626
+Info 44   [09:30:03.606] getCompletionsAtPosition: isCompletionListBlocker: 0.03180400002747774
+Info 45   [09:30:03.614] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 46   [09:30:03.628] getCompletionData: Semantic work: 22.55238400027156
+Info 47   [09:30:03.682] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 52.510552999563515
+Info 48   [09:30:03.698] getCompletionData: Get current token: 0.014751999638974667
+Info 49   [09:30:03.698] getCompletionData: Is inside comment: 0.029155000112950802
+Info 50   [09:30:03.698] getCompletionData: Get previous token 1: 0.02281400002539158
+Info 51   [09:30:03.698] getCompletionData: Get previous token 2: 0.02286200039088726
+Info 52   [09:30:03.698] getCompletionsAtPosition: isCompletionListBlocker: 0.012335999868810177
+Info 53   [09:30:03.707] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 54   [09:30:03.712] getCompletionData: Semantic work: 13.55100099928677
+Info 55   [09:30:03.749] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 37.11030999943614
+Info 56   [09:30:03.762] Starting updateGraphWorker: Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json
+Info 57   [09:30:03.795] Finishing updateGraphWorker: Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json Version: 4 structureChanged: false Elapsed: 33.33817300014198ms
+Info 58   [09:30:03.795] Different program with same set of files:: structureIsReused:: 2
+Info 59   [09:30:03.796] getCompletionData: Get current token: 0.016698000021278858
+Info 60   [09:30:03.796] getCompletionData: Is inside comment: 0.05151799973100424
+Info 61   [09:30:03.796] getCompletionData: Get previous token 1: 0.02418099995702505
+Info 62   [09:30:03.796] getCompletionData: Get previous token 2: 0.055735000409185886
+Info 63   [09:30:03.796] getCompletionsAtPosition: isCompletionListBlocker: 0.012067999690771103
+Info 64   [09:30:03.806] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 65   [09:30:03.821] getCompletionData: Semantic work: 24.824521999806166
+Info 66   [09:30:03.843] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 20.247543999925256
+Info 67   [09:30:03.848] getCompletionData: Get current token: 0.3072429997846484
+Info 68   [09:30:03.849] getCompletionData: Is inside comment: 0.0311489999294281
+Info 69   [09:30:03.849] getCompletionData: Get previous token 1: 0.024056999944150448
+Info 70   [09:30:03.849] getCompletionData: Get previous token 2: 0.025144999846816063
+Info 71   [09:30:03.849] getCompletionsAtPosition: isCompletionListBlocker: 0.010836999863386154
+Info 72   [09:30:03.854] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 73   [09:30:03.856] getCompletionData: Semantic work: 7.7544710002839565
+Info 74   [09:30:03.872] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 15.159464000724256
+Info 75   [09:30:03.879] getCompletionData: Get current token: 0.012480000033974648
+Info 76   [09:30:03.879] getCompletionData: Is inside comment: 0.03234199993312359
+Info 77   [09:30:03.879] getCompletionData: Get previous token 1: 0.025772999972105026
+Info 78   [09:30:03.879] getCompletionData: Get previous token 2: 0.026367999613285065
+Info 79   [09:30:03.879] getCompletionsAtPosition: isCompletionListBlocker: 0.013241000473499298
+Info 80   [09:30:03.884] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 81   [09:30:03.888] getCompletionData: Semantic work: 8.048857999965549
+Info 82   [09:30:03.900] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 12.642093000002205
+Info 83   [09:30:03.906] Starting updateGraphWorker: Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json
+Info 84   [09:30:03.935] Finishing updateGraphWorker: Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json Version: 5 structureChanged: false Elapsed: 29.253030000254512ms
+Info 85   [09:30:03.935] Different program with same set of files:: structureIsReused:: 2
+Info 86   [09:30:03.935] getCompletionData: Get current token: 0.010433000512421131
+Info 87   [09:30:03.935] getCompletionData: Is inside comment: 0.024963000789284706
+Info 88   [09:30:03.935] getCompletionData: Get previous token 1: 0.020206999965012074
+Info 89   [09:30:03.936] getCompletionData: Get previous token 2: 0.09590299986302853
+Info 90   [09:30:03.936] getCompletionsAtPosition: isCompletionListBlocker: 0.011702999472618103
+Info 91   [09:30:03.942] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 92   [09:30:03.951] getCompletionData: Semantic work: 15.834563000127673
+Info 93   [09:30:03.964] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 10.67100299987942
+Info 94   [09:30:03.968] getCompletionData: Get current token: 0.009636000730097294
+Info 95   [09:30:03.968] getCompletionData: Is inside comment: 0.025067999958992004
+Info 96   [09:30:03.968] getCompletionData: Get previous token 1: 0.0206300001591444
+Info 97   [09:30:03.968] getCompletionData: Get previous token 2: 0.021585999988019466
+Info 98   [09:30:03.968] getCompletionsAtPosition: isCompletionListBlocker: 0.010817999951541424
+Info 99   [09:30:03.972] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 100  [09:30:03.974] getCompletionData: Semantic work: 5.371132999658585
+Info 101  [09:30:03.981] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 7.653206999413669
+Info 102  [09:30:03.985] getCompletionData: Get current token: 0.009227999486029148
+Info 103  [09:30:03.985] getCompletionData: Is inside comment: 0.024679000489413738
+Info 104  [09:30:03.985] getCompletionData: Get previous token 1: 0.019555999897420406
+Info 105  [09:30:03.985] getCompletionData: Get previous token 2: 0.12067699991166592
+Info 106  [09:30:03.986] getCompletionsAtPosition: isCompletionListBlocker: 0.012637999840080738
+Info 107  [09:30:03.990] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 108  [09:30:03.991] getCompletionData: Semantic work: 5.579266999848187
+Info 109  [09:30:03.998] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 6.656767999753356
+Info 110  [09:30:04.002] Starting updateGraphWorker: Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json
+Info 111  [09:30:04.030] Finishing updateGraphWorker: Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json Version: 6 structureChanged: false Elapsed: 28.096586000174284ms
+Info 112  [09:30:04.030] Different program with same set of files:: structureIsReused:: 2
+Info 113  [09:30:04.030] getCompletionData: Get current token: 0.011524000205099583
+Info 114  [09:30:04.030] getCompletionData: Is inside comment: 0.024253999814391136
+Info 115  [09:30:04.031] getCompletionData: Get previous token 1: 0.01980699971318245
+Info 116  [09:30:04.031] getCompletionData: Get previous token 2: 0.05239100009202957
+Info 117  [09:30:04.031] getCompletionsAtPosition: isCompletionListBlocker: 0.011122999712824821
+Info 118  [09:30:04.035] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 119  [09:30:04.047] getCompletionData: Semantic work: 15.921649999916553
+Info 120  [09:30:04.053] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 5.9914100002497435
+Info 121  [09:30:04.056] getCompletionData: Get current token: 0.009428000077605247
+Info 122  [09:30:04.056] getCompletionData: Is inside comment: 0.02574599999934435
+Info 123  [09:30:04.056] getCompletionData: Get previous token 1: 0.0209969999268651
+Info 124  [09:30:04.056] getCompletionData: Get previous token 2: 0.020025000907480717
+Info 125  [09:30:04.056] getCompletionsAtPosition: isCompletionListBlocker: 0.01016400009393692
+Info 126  [09:30:04.060] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 127  [09:30:04.062] getCompletionData: Semantic work: 5.244292000308633
+Info 128  [09:30:04.067] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 5.682051000185311
+Info 129  [09:30:04.071] getCompletionData: Get current token: 0.009686999954283237
+Info 130  [09:30:04.071] getCompletionData: Is inside comment: 0.025148000568151474
+Info 131  [09:30:04.071] getCompletionData: Get previous token 1: 0.02038400061428547
+Info 132  [09:30:04.071] getCompletionData: Get previous token 2: 0.02010700013488531
+Info 133  [09:30:04.071] getCompletionsAtPosition: isCompletionListBlocker: 0.012695999816060066
+Info 134  [09:30:04.075] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 135  [09:30:04.076] getCompletionData: Semantic work: 5.162030999548733
+Info 136  [09:30:04.082] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 5.610303999856114
+Info 137  [09:30:04.086] Starting updateGraphWorker: Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json
+Info 138  [09:30:04.113] Finishing updateGraphWorker: Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json Version: 7 structureChanged: false Elapsed: 26.312574999406934ms
+Info 139  [09:30:04.113] Different program with same set of files:: structureIsReused:: 2
+Info 140  [09:30:04.113] getCompletionData: Get current token: 0.008699999190866947
+Info 141  [09:30:04.113] getCompletionData: Is inside comment: 0.024643000215291977
+Info 142  [09:30:04.113] getCompletionData: Get previous token 1: 0.020508999936282635
+Info 143  [09:30:04.113] getCompletionData: Get previous token 2: 0.0494590001180768
+Info 144  [09:30:04.113] getCompletionsAtPosition: isCompletionListBlocker: 0.010785999707877636
+Info 145  [09:30:04.117] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 146  [09:30:04.124] getCompletionData: Semantic work: 10.955740999430418
+Info 147  [09:30:04.130] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 5.8998139994218946
+Info 148  [09:30:04.134] getCompletionData: Get current token: 0.009513999335467815
+Info 149  [09:30:04.134] getCompletionData: Is inside comment: 0.02460700087249279
+Info 150  [09:30:04.134] getCompletionData: Get previous token 1: 0.02059599943459034
+Info 151  [09:30:04.134] getCompletionData: Get previous token 2: 0.02232399955391884
+Info 152  [09:30:04.134] getCompletionsAtPosition: isCompletionListBlocker: 0.011071999557316303
+Info 153  [09:30:04.138] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 154  [09:30:04.139] getCompletionData: Semantic work: 5.406209000386298
+Info 155  [09:30:04.145] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 5.805980000644922
+Info 156  [09:30:04.152] getCompletionData: Get current token: 0.01059499941766262
+Info 157  [09:30:04.152] getCompletionData: Is inside comment: 0.025338999927043915
+Info 158  [09:30:04.152] getCompletionData: Get previous token 1: 0.02063699997961521
+Info 159  [09:30:04.152] getCompletionData: Get previous token 2: 0.019840999506413937
+Info 160  [09:30:04.152] getCompletionsAtPosition: isCompletionListBlocker: 0.012688999995589256
+Info 161  [09:30:04.156] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 162  [09:30:04.157] getCompletionData: Semantic work: 5.324097999371588
+Info 163  [09:30:04.163] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 5.583270000293851
+Info 164  [09:30:04.167] Starting updateGraphWorker: Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json
+Info 165  [09:30:04.193] Finishing updateGraphWorker: Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json Version: 8 structureChanged: false Elapsed: 26.61662699934095ms
+Info 166  [09:30:04.193] Different program with same set of files:: structureIsReused:: 2
+Info 167  [09:30:04.193] getCompletionData: Get current token: 0.008429999463260174
+Info 168  [09:30:04.194] getCompletionData: Is inside comment: 0.02600300032645464
+Info 169  [09:30:04.194] getCompletionData: Get previous token 1: 0.021984999999403954
+Info 170  [09:30:04.194] getCompletionData: Get previous token 2: 0.04814599920064211
+Info 171  [09:30:04.194] getCompletionsAtPosition: isCompletionListBlocker: 0.01102600060403347
+Info 172  [09:30:04.198] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 173  [09:30:04.224] getCompletionData: Semantic work: 29.886261999607086
+Info 174  [09:30:04.284] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 60.08153699990362
+Info 175  [09:30:04.493] getCompletionData: Get current token: 0.011125000193715096
+Info 176  [09:30:04.494] getCompletionData: Is inside comment: 0.03054200019687414
+Info 177  [09:30:04.494] getCompletionData: Get previous token 1: 0.02496299985796213
+Info 178  [09:30:04.494] getCompletionData: Get previous token 2: 0.025071000680327415
+Info 179  [09:30:04.494] getCompletionsAtPosition: isCompletionListBlocker: 0.014545000158250332
+Info 180  [09:30:04.500] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 181  [09:30:04.504] getCompletionData: Semantic work: 10.270879000425339
+Info 182  [09:30:04.564] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 59.428801000118256
+Info 183  [09:30:04.596] getCompletionData: Get current token: 0.011214000172913074
+Info 184  [09:30:04.596] getCompletionData: Is inside comment: 0.031074000522494316
+Info 185  [09:30:04.596] getCompletionData: Get previous token 1: 0.025346999987959862
+Info 186  [09:30:04.597] getCompletionData: Get previous token 2: 0.02304700016975403
+Info 187  [09:30:04.597] getCompletionsAtPosition: isCompletionListBlocker: 0.01377899944782257
+Info 188  [09:30:04.601] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 189  [09:30:04.605] getCompletionData: Semantic work: 8.215244000777602
+Info 190  [09:30:04.637] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 32.322053000330925
+Info 191  [09:30:04.658] Starting updateGraphWorker: Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json
+Info 192  [09:30:04.685] Finishing updateGraphWorker: Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json Version: 9 structureChanged: false Elapsed: 27.351986999623477ms
+Info 193  [09:30:04.685] Different program with same set of files:: structureIsReused:: 2
+Info 194  [09:30:07.088] Starting updateGraphWorker: Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json
+Info 195  [09:30:07.253] Finishing updateGraphWorker: Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json Version: 10 structureChanged: true Elapsed: 165.65473000053316ms
+Info 196  [09:30:07.254] Different program with same set of files:: structureIsReused:: 1
+Info 197  [09:30:32.744] DirectoryWatcher:: Triggered with /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src/Components/#Balance.tsx# 0:: WatchInfo: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src 1 undefined Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json WatchType: Wild card directory
+Info 198  [09:30:32.746] Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json Detected file add/remove of non supported extension: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src/Components/#Balance.tsx#
+Info 199  [09:30:32.746] Elapsed:: 1.8201709995046258ms DirectoryWatcher:: Triggered with /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src/Components/#Balance.tsx# 0:: WatchInfo: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src 1 undefined Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json WatchType: Wild card directory
+Info 200  [09:30:32.746] DirectoryWatcher:: Triggered with /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src/Components/#Balance.tsx# 0:: WatchInfo: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src 1 undefined Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json WatchType: Failed Lookup Locations
+Info 201  [09:30:32.747] Elapsed:: 0.5956849996000528ms DirectoryWatcher:: Triggered with /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src/Components/#Balance.tsx# 0:: WatchInfo: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src 1 undefined Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json WatchType: Failed Lookup Locations
+Info 202  [09:30:35.114] Starting updateGraphWorker: Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json
+Info 203  [09:30:35.301] Finishing updateGraphWorker: Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json Version: 11 structureChanged: true Elapsed: 186.85309199988842ms
+Info 204  [09:30:35.301] Different program with same set of files:: structureIsReused:: 1
+Info 205  [09:30:45.504] Starting updateGraphWorker: Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json
+Info 206  [09:30:45.659] Finishing updateGraphWorker: Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json Version: 12 structureChanged: true Elapsed: 154.73927300050855ms
+Info 207  [09:30:45.659] Different program with same set of files:: structureIsReused:: 1
+Info 208  [09:30:46.476] Starting updateGraphWorker: Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json
+Info 209  [09:30:46.619] Finishing updateGraphWorker: Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json Version: 13 structureChanged: true Elapsed: 142.20040199998766ms
+Info 210  [09:30:46.619] Different program with same set of files:: structureIsReused:: 1
+Info 211  [09:30:48.383] Starting updateGraphWorker: Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json
+Info 212  [09:30:48.407] Finishing updateGraphWorker: Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json Version: 14 structureChanged: false Elapsed: 23.761932999826968ms
+Info 213  [09:30:48.407] Different program with same set of files:: structureIsReused:: 2
+Info 214  [09:30:50.174] DirectoryWatcher:: Triggered with /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src/Components/#Balance.tsx# 0:: WatchInfo: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src 1 undefined Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json WatchType: Wild card directory
+Info 215  [09:30:50.174] Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json Detected file add/remove of non supported extension: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src/Components/#Balance.tsx#
+Info 216  [09:30:50.174] Elapsed:: 0.30854699946939945ms DirectoryWatcher:: Triggered with /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src/Components/#Balance.tsx# 0:: WatchInfo: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src 1 undefined Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json WatchType: Wild card directory
+Info 217  [09:30:50.174] DirectoryWatcher:: Triggered with /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src/Components/#Balance.tsx# 0:: WatchInfo: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src 1 undefined Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json WatchType: Failed Lookup Locations
+Info 218  [09:30:50.175] Elapsed:: 0.0884630000218749ms DirectoryWatcher:: Triggered with /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src/Components/#Balance.tsx# 0:: WatchInfo: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src 1 undefined Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json WatchType: Failed Lookup Locations
+Info 219  [09:32:00.801] DirectoryWatcher:: Triggered with /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src/index.tsx 0:: WatchInfo: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src 1 undefined Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json WatchType: Wild card directory
+Info 220  [09:32:00.802] Elapsed:: 1.306696000508964ms DirectoryWatcher:: Triggered with /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src/index.tsx 0:: WatchInfo: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src 1 undefined Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json WatchType: Wild card directory
+Info 221  [09:32:00.802] DirectoryWatcher:: Triggered with /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src/index.jsx 1:: WatchInfo: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src 1 undefined Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json WatchType: Wild card directory
+Info 222  [09:32:00.802] Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json Detected output file: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src/index.jsx
+Info 223  [09:32:00.802] Elapsed:: 0.31400700006633997ms DirectoryWatcher:: Triggered with /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src/index.jsx 1:: WatchInfo: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src 1 undefined Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json WatchType: Wild card directory
+Info 224  [09:32:00.803] DirectoryWatcher:: Triggered with /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src/index.tsx 0:: WatchInfo: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src 1 undefined Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json WatchType: Failed Lookup Locations
+Info 225  [09:32:00.803] Elapsed:: 0.4048110004514456ms DirectoryWatcher:: Triggered with /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src/index.tsx 0:: WatchInfo: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src 1 undefined Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json WatchType: Failed Lookup Locations
+Info 226  [09:32:00.803] DirectoryWatcher:: Triggered with /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src/index.jsx 1:: WatchInfo: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src 1 undefined Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json WatchType: Failed Lookup Locations
+Info 227  [09:32:00.803] Elapsed:: 0.19261600077152252ms DirectoryWatcher:: Triggered with /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src/index.jsx 1:: WatchInfo: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src 1 undefined Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json WatchType: Failed Lookup Locations
+Info 228  [09:32:01.115] Starting updateGraphWorker: Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json
+Info 229  [09:32:01.265] Finishing updateGraphWorker: Project: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json Version: 15 structureChanged: true Elapsed: 150.4119990002364ms
+Info 230  [09:32:01.265] Project '/home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json' (Configured)
+Info 231  [09:32:01.265] 	Files (522)
+
+Info 232  [09:32:01.265] -----------------------------------------------
+Info 233  [09:32:01.265] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 234  [09:32:01.265] 	Files (35)
+
+Info 235  [09:32:01.266] -----------------------------------------------
+Info 236  [09:32:01.319] FileWatcher:: Triggered with /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src/index.tsx 2:: WatchInfo: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src/index.tsx 500 undefined Project:  WatchType: Closed Script info
+Info 237  [09:32:01.321] Elapsed:: 1.2667000005021691ms FileWatcher:: Triggered with /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src/index.tsx 2:: WatchInfo: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src/index.tsx 500 undefined Project:  WatchType: Closed Script info
+Info 238  [09:32:03.311] Before ensureProjectForOpenFiles:
+Info 239  [09:32:03.312] After ensureProjectForOpenFiles:
+Info 240  [09:32:03.313] got projects updated in background, updating diagnostics for /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src/Components/Balance.tsx
+Info 241  [09:32:05.493] Search path: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src
+Info 242  [09:32:05.494] For info: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/src/index.jsx :: Config file name: /home/zsucrilhos/Projects/traversy-media-expense-tracker-material-ui/tsconfig.json
