@@ -1,20 +1,44 @@
 import express from "express";
 import dotenv from "dotenv";
-import morgan from "morgan";
+//import morgan from "morgan"; // idk if we are ever going to use this
 import colors from "colors";
-import transactionsRoutes from "./routes/transactions"
+import transactionsRoutes from "./routes/transactions";
+import config from "../config/config";
+import logging from "../config/logging";
+import connectDb from "../config/db"
 
-const app = express();
+// Connecting to the database (mongodb in this case)
+connectDb()
+
+const router = express();
+const NAMESPACE = "Server"; // For logging
 
 dotenv.config({ path: "config/config.env" });
-const PORT = process.env.PORT || 5000;
+const PORT = config.server.port;
 
-app.use('/api/v1/transactions', transactionsRoutes)
+router.use(
+  "/api/v1/transactions",
+  (req, res, next) => {
+    logging.info(
+      NAMESPACE,
+      `METHOD - [${req.method}], URL - [${req.url}], IP - [${req.socket.remoteAddress}]`
+    );
 
-app.listen(PORT, () =>
+    res.on("finish", () => {
+      logging.info(
+        NAMESPACE,
+        `METHOD - [${req.method}], URL - [${req.url}], IP - [${req.socket.remoteAddress}], STATUS - [${req.statusCode}]`
+      );
+    });
+    next();
+  },
+  transactionsRoutes
+);
+
+router.listen(PORT, () =>
   console.log(
     colors.yellow.bold(
-      `[server] Server running on ${process.env.NODE_ENV} mode on port ${PORT}`
+      `[server] Server running on ${config.server.env} mode on port ${PORT}`
     )
   )
 );
