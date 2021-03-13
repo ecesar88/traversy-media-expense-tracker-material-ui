@@ -2,13 +2,16 @@ import express from "express";
 import {
   getTransactions,
   addTransaction,
-  deleteTransaction,
+  deleteTransaction
 } from "../controllers/transactions";
 
 const router = express.Router();
 
-router.route("/").get(getTransactions).post(addTransaction);
+router.route("/")
+  .get(getTransactions)
+  .post(addTransaction);
 
-router.route("/:id").delete(deleteTransaction);
+router.route("/:id")
+  .delete(deleteTransaction);
 
 export default router;

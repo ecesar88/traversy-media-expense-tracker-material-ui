@@ -1,7 +1,7 @@
 import colors from "colors";
 
 const getTimeStamp = () => {
-  return new Date().toISOString();
+  return new Date().toISOString().slice(0,19);
 };
 
 const info = (

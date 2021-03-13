@@ -10,34 +10,36 @@ import connectDb from "../config/db"
 // Connecting to the database (mongodb in this case)
 connectDb()
 
-const router = express();
+const app = express();
 const NAMESPACE = "Server"; // For logging
 
 dotenv.config({ path: "config/config.env" });
 const PORT = config.server.port;
 
-router.use(express.json())
+app.use(express.json())
+app.use(express.urlencoded({ extended: true }))
 
-router.use(
+app.use(
   "/api/v1/transactions",
   (req, res, next) => {
-    logging.info(
-      NAMESPACE,
-      `METHOD - [${req.method}], URL - [${req.url}], IP - [${req.socket.remoteAddress}]`
-    );
-
     res.on("finish", () => {
       logging.info(
         NAMESPACE,
-        `METHOD - [${req.method}], URL - [${req.url}], IP - [${req.socket.remoteAddress}], STATUS - [${req.statusCode}]`
+        `METHOD - [${req.method}], URL - [${req.url}], IP - [${req.socket.remoteAddress}], STATUS - [${res.statusCode}]`
       );
+      if (res.statusCode === 500) {
+        logging.warn(
+          NAMESPACE,
+          `METHOD - [${req.method}], URL - [${req.url}], IP - [${req.socket.remoteAddress}], STATUS - [${res.statusCode}]`
+        );
+      }
     });
     next();
   },
   transactionsRoutes
 );
 
-router.listen(PORT, () =>
+app.listen(PORT, () =>
   console.log(
     colors.yellow.bold(
       `[server] Server running on ${config.server.env} mode on port ${PORT}`
