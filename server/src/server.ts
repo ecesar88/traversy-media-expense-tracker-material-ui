@@ -16,6 +16,8 @@ const NAMESPACE = "Server"; // For logging
 dotenv.config({ path: "config/config.env" });
 const PORT = config.server.port;
 
+router.use(express.json())
+
 router.use(
   "/api/v1/transactions",
   (req, res, next) => {

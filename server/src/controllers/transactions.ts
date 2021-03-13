@@ -29,7 +29,21 @@ export const getTransactions: Transaction = async (req, res) => {
 // @route POST /api/v1/transactions
 // @access Public
 export const addTransaction: Transaction = async (req, res) => {
-  res.send("POST Transaction");
+  try {
+    const { text, amount } = req.body;
+
+    const transaction = await Transaction.create(req.body);
+
+    return res.status(201).json({
+      success: true,
+      data: transaction,
+    });
+  } catch (err) {
+    return res.status(500).json({
+      success: false,
+      error: "Could not create",
+    });
+  }
 };
 
 // @desc Delete transactions
