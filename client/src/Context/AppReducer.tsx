@@ -1,7 +1,13 @@
+import { CardActions } from "@material-ui/core";
+
 const AppReducer = (state: any, action: any) => {
   switch (action.type) {
-    default:
-      return state;
+    case "GET_TRANSACTIONS":
+      return {
+        ...state,
+        loading: false,
+        transactions: action.payload
+      };
     case "DELETE_TRANSACTION":
       return {
         ...state,
@@ -13,8 +19,15 @@ const AppReducer = (state: any, action: any) => {
       console.log(action.payload, state.transactions);
       return {
         ...state,
-        transactions: [action.payload, ...state.transactions],
+        transactions: [...state.transactions, action.payload],
       };
+    case "TRANSACTION_ERROR":
+      return {
+        ...state,
+        error: action.payload
+      };
+    default:
+      return state;
   }
 };
 
