@@ -1,5 +1,5 @@
 import { Divider, makeStyles, Typography } from "@material-ui/core";
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import Transaction from "./Transaction";
 import { GlobalContext } from "../Context/GlobalContext";
 
@@ -17,7 +17,12 @@ const useStyles = makeStyles({
 
 const History: React.FC = () => {
   const classes = useStyles();
-  const { transactions } = useContext(GlobalContext);
+  const { transactions, getTransactions } = useContext(GlobalContext);
+
+  useEffect(() => {
+    if (getTransactions)
+      getTransactions()
+  }, [])
 
   return (
     <div className={classes.container}>
