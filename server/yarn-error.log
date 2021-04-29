@@ -1,0 +1,54 @@
+Arguments: 
+  /home/zsucrilhos/.nvm/versions/node/v15.5.1/bin/node /usr/bin/yarn add react @types/react @material/core
+
+PATH: 
+  /home/zsucrilhos/perl5/bin:/home/zsucrilhos/.emacs.d/bin:/home/zsucrilhos/.local/bin/:/home/zsucrilhos/.gem/ruby/2.7.0/bin/:/home/zsucrilhos/.cargo/bin/:/home/zsucrilhos/_my-scripts:/home/zsucrilhos/.zplug/bin:/home/zsucrilhos/perl5/bin:/home/zsucrilhos/.emacs.d/bin:/home/zsucrilhos/.local/bin/:/home/zsucrilhos/.gem/ruby/2.7.0/bin/:/home/zsucrilhos/.cargo/bin/:/home/zsucrilhos/_my-scripts:/home/zsucrilhos/.nvm/versions/node/v15.5.1/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  15.5.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@material%2fcore: Not found
+      at Request.params.callback [as _callback] (/usr/lib/node_modules/yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/usr/lib/node_modules/yarn/lib/cli.js:140749:22)
+      at Request.emit (node:events:376:20)
+      at Request.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:141721:10)
+      at Request.emit (node:events:376:20)
+      at IncomingMessage.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:141643:12)
+      at Object.onceWrapper (node:events:482:28)
+      at IncomingMessage.emit (node:events:388:22)
+      at endReadableNT (node:internal/streams/readable:1305:12)
+      at processTicksAndRejections (node:internal/process/task_queues:80:21)
+
+npm manifest: 
+  {
+    "name": "expense-tracker-client",
+    "version": "1.0.0",
+    "description": "Expense tracker tutorial from Brad Traversy (Traversy Media) with MaterialUI and Typescript instead",
+    "main": "src/index.tsx",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/zSucrilhos/traversy-media-expense-tracker-material-ui.git"
+    },
+    "author": "Erick Cesar",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/zSucrilhos/traversy-media-expense-tracker-material-ui/issues"
+    },
+    "homepage": "https://github.com/zSucrilhos/traversy-media-expense-tracker-material-ui#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,4 +1,9 @@
-import React, { createContext, useReducer, ReactNode, ReactElement } from "react";
+import React, {
+  createContext,
+  useReducer,
+  ReactNode,
+  ReactElement,
+} from "react";
 import AppReducer from "./AppReducer";
 import axios from "axios";
 
@@ -12,9 +17,9 @@ type initialStateType = {
   transactions: Transaction[];
   error?: unknown;
   loading?: boolean;
-  deleteTransaction?: (id: number) => void,
-  addTransaction?: (transaction: Transaction) => void,
-  getTransactions?: () => void
+  deleteTransaction?: (id: number) => void;
+  addTransaction?: (transaction: Transaction) => void;
+  getTransactions?: () => void;
 };
 
 const initialState: initialStateType = {
@@ -25,7 +30,11 @@ const initialState: initialStateType = {
 
 export const GlobalContext = createContext(initialState);
 
-export const GlobalProvider = ({ children }: { children: ReactNode }): ReactElement => {
+export const GlobalProvider = ({
+  children,
+}: {
+  children: ReactNode;
+}): ReactElement => {
   const [state, dispatch] = useReducer(AppReducer, initialState);
 
   // Actions
